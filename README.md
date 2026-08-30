@@ -62,12 +62,12 @@ Plataforma para descoberta, cadastro e gestão de destinos turísticos. Desenvol
 ## 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_GITHUB&show_icons=true&theme=transparent&hide_border=true&title_color=16B7ED&icon_color=16B7ED&text_color=777777" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_GITHUB&layout=compact&theme=transparent&hide_border=true&title_color=16B7ED&text_color=777777" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=VictorSoares98&show_icons=true&theme=transparent&hide_border=true&title_color=16B7ED&icon_color=16B7ED&text_color=777777" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VictorSoares98&layout=compact&theme=transparent&hide_border=true&title_color=16B7ED&text_color=777777" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SEU_USUARIO_GITHUB&theme=transparent&hide_border=true&stroke=16B7ED&ring=16B7ED&fire=16B7ED" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VictorSoares98&theme=transparent&hide_border=true&stroke=16B7ED&ring=16B7ED&fire=16B7ED" />
 </div>
