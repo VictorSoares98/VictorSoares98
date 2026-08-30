@@ -62,8 +62,8 @@ Plataforma para descoberta, cadastro e gestão de destinos turísticos. Desenvol
 ## 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=VictorSoares98&show_icons=true&theme=transparent&hide_border=true&title_color=16B7ED&icon_color=16B7ED&text_color=777777" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VictorSoares98&layout=compact&theme=transparent&hide_border=true&title_color=16B7ED&text_color=777777" />
+  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=VictorSoares98&show_icons=true&theme=transparent&hide_border=true&title_color=16B7ED&icon_color=16B7ED&text_color=777777" />
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=VictorSoares98&layout=compact&theme=transparent&hide_border=true&title_color=16B7ED&text_color=777777" />
 </div>
 
 <br/>
