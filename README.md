@@ -1,73 +1,90 @@
 <div align="center">
-  
-  # Olá! Eu sou o Victor Soares 👋
-  
-  **Estudante de Engenharia de Software (7º de 8 períodos — na reta final!) na Universidade de Vassouras**
-  
-  Desenvolvedor Full-Stack com foco na criação de produtos e SaaS. Apaixonado por transformar ideias em soluções escaláveis e arquiteturas robustas.
 
-  [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu.email@email.com)
-  
+# Olá! Eu sou o Victor Soares 👋
+
+**Software Engineer | AppSec & Full-Stack**  
+🎓 _Engenharia de Software — Universidade de Vassouras (Jun/2027)_
+
+[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu.email@email.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/victorsoares)
+
 </div>
 
 <br/>
 
-## 🚀 Projetos em Destaque
+## 🚀 Posicionamento Técnico & Arquitetura
 
-### 📊 Find My Pockets *(SaaS)*
-> *"A Universidade é o teu Campo Missionário"*  
-
-Plataforma avançada para gestão, mapeamento e métricas de missões universitárias. Conta com uma landing page pública ativa e um painel interno (focado em RH) em fase de validação. A arquitetura segue padrões rigorosos de mercado para alta performance e segurança, incluindo regras AppSec, Zod para validação de schemas estritos e integração com Supabase Edge Functions.
-> **Stack:**  
-> [![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vue.js&logoColor=4FC08D)](https://vuejs.org/) [![Quasar](https://img.shields.io/badge/Quasar-1976D2?style=flat-square&logo=quasar&logoColor=white)](https://quasar.dev/) [![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+Engenheiro de Software com foco em **sistemas reativos de alta performance**, **arquitetura de microsserviços/SSR** e **segurança de aplicações (AppSec)**. Ampla experiência prática construindo produtos reais com **SvelteKit 2, Vue 3, TypeScript, TypeORM, Supabase (Edge Functions / RLS), PostgreSQL e Docker Compose**.
 
 ---
 
-### 📱 Ficou claro? *(App Híbrido)*
-Aplicativo mobile construído com Capacitor focado em conectar alunos e professores sem fricção através de feedback em tempo real. Permite que alunos avaliem a didática e interajam anonimamente, gerando dados instantâneos para a melhoria contínua da aula.
-> **Stack:**  
-> [![Vue 3](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D)](https://vuejs.org/) [![Quasar](https://img.shields.io/badge/Quasar-1976D2?style=flat-square&logo=quasar&logoColor=white)](https://quasar.dev/) [![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+## 🎯 Repositórios & Projetos em Destaque
+
+### 🔒 [Find My Pockets](https://github.com/VictorSoares98/find-my-pockets) _(SaaS Privado / AppSec)_
+
+> Plataforma avançada para gestão e métricas de missões universitárias com arquitetura _secure-by-design_.
+
+- **Qualidade & AppSec:** Validação com **Zod Schemas estritos**, varredura pré-commit com **Gitleaks + Husky**, testes **Vitest (AAA)** e testes end-to-end com **Playwright E2E**.
+- **Tech Stack:**
+  [![Vue.js](https://img.shields.io/badge/Vue.js_3-35495E?style=flat-square&logo=vue.js&logoColor=4FC08D)](https://vuejs.org/)
+  [![Quasar](https://img.shields.io/badge/Quasar-1976D2?style=flat-square&logo=quasar&logoColor=white)](https://quasar.dev/)
+  [![Supabase](https://img.shields.io/badge/Supabase_Edge-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
 ---
 
-### 🗺️ Vou Ali *(Plataforma Web)*
-Plataforma para descoberta, cadastro e gestão de destinos turísticos. Desenvolvida como MVP para validação rápida de requisitos, unindo viajantes, parceiros e administradores em um ecossistema com autenticação, catálogo público, avaliações e painel de administração sem sobrecarga de features complexas na fase inicial.
-> **Stack:**  
-> ![SvelteKit](https://img.shields.io/badge/SvelteKit-2.22.0-FF3E00?style=flat-square&logo=svelte) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=flat-square&logo=postgresql) ![Firebase](https://img.shields.io/badge/Firebase_Auth_%2B_Admin-FFCA28?style=flat-square&logo=firebase) ![Docker](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker)
+### 🌐 [Ficou Claro?](https://github.com/VictorSoares98/ficouclaro) _(Público / Projeto Acadêmico)_
+
+> Termômetro e aplicativo de telemetria didática móvel em tempo real para salas de aula.
+
+- **Engenharia Realtime & Mobile:** Arquitetura desacoplada com **RealtimeManager Singleton**, compilação nativa para Android via **Capacitor** e controle único anti-duplicidade no PostgreSQL.
+- **Tech Stack:**
+  [![Vue 3](https://img.shields.io/badge/Vue.js_3-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D)](https://vuejs.org/)
+  [![Quasar](https://img.shields.io/badge/Quasar-1976D2?style=flat-square&logo=quasar&logoColor=white)](https://quasar.dev/)
+  [![Capacitor](https://img.shields.io/badge/Capacitor_Android-1192EE?style=flat-square&logo=capacitor&logoColor=white)](https://capacitorjs.com/)
+  [![Supabase](https://img.shields.io/badge/Supabase_Realtime-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
+
+---
+
+### 🌐 [Vou Ali](https://github.com/ProjetoVouAli/VouAli) _(Público / Projeto Acadêmico)_
+
+> Monólito full-stack para descoberta e gestão de destinos turísticos com renderização no servidor.
+
+- **Arquitetura Full-Stack:** Desenvolvido com **SvelteKit 2 + Svelte 5**, persistência relacional com **TypeORM + PostgreSQL 16** via Docker, e validação server-side com **Firebase Admin SDK**.
+- **Tech Stack:**  
+  ![SvelteKit](https://img.shields.io/badge/SvelteKit-2.x-FF3E00?style=flat-square&logo=svelte)
+  ![TypeORM](https://img.shields.io/badge/TypeORM-336791?style=flat-square)
+  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=flat-square&logo=postgresql)
+  ![Firebase](https://img.shields.io/badge/Firebase_Admin-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
 <br/>
 
-## 💻 Minha Stack Tecnológica Principal
+## 💻 Dominio Tecnológico
 
-**Linguagens & Frontend:**
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Vue.js](https://img.shields.io/badge/vue-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
+**Frontend & Reatividade:**  
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js_3-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 ![Quasar](https://img.shields.io/badge/Quasar-16B7ED?style=for-the-badge&logo=quasar&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Capacitor](https://img.shields.io/badge/Capacitor-1192EE?style=for-the-badge&logo=capacitor&logoColor=white)
 
-**Backend, Banco de Dados & BaaS:**
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Drizzle](https://img.shields.io/badge/drizzle-%23C5F74F.svg?style=for-the-badge&logo=drizzle&logoColor=black)
+**Backend, Bancos & Persistência:**  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![TypeORM](https://img.shields.io/badge/TypeORM-FE0803?style=for-the-badge)
+![Supabase](https://img.shields.io/badge/Supabase_Edge_Functions-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-**Infraestrutura & Ferramentas:**
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
+**Qualidade & DevOps:**  
+![Playwright](https://img.shields.io/badge/Playwright_E2E-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Gitleaks](https://img.shields.io/badge/Gitleaks_AppSec-000000?style=for-the-badge)
 
 <br/>
 
 ## 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=VictorSoares98&show_icons=true&theme=transparent&hide_border=true&title_color=16B7ED&icon_color=16B7ED&text_color=777777&count_private=true" />
-  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=VictorSoares98&layout=compact&theme=transparent&hide_border=true&title_color=16B7ED&text_color=777777" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VictorSoares98&theme=transparent&hide_border=true&stroke=16B7ED&ring=16B7ED&fire=16B7ED" />
+  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=VictorSoares98&show_icons=true&theme=transparent&hide_border=true&title_color=16B7ED&icon_color=16B7ED&text_color=CCCCCC&count_private=true" />
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=VictorSoares98&layout=compact&theme=transparent&hide_border=true&title_color=16B7ED&text_color=CCCCCC" />
 </div>
